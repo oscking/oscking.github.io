@@ -198,5 +198,25 @@ input[type="radio"]{
 @media screen and (max-width:580px){
     .posts{
         grid-template-columns: repeat(1,1fr);
+        padding: 0 100px;
+    }
+}
+
+@media screen and (max-width:470px){
+    .post button{
+        font-size: 13px;
+        padding: 10px 30px;
+    }
+    .posts{
+        padding: 0 80px;
+    }
+}
+
+@media screen and (max-width:410px){
+    .post button{
+        padding: 10px 20px;
+    }
+    .posts{
+        padding: 0 60px;
     }
 }
