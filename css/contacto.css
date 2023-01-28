@@ -1,0 +1,117 @@
+/*Portada*/
+
+.contacto-container-cover{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-top: 80px;
+    background-image: url(../img/portadainicio.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contacto-container-cover:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 17, 92, 0.164);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-info-cover{
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.container-info-cover h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container-info-cover p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*Contenedor contenido del articulo*/
+
+.container-content{
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 60px;
+    box-shadow: -10px 0 20px -30px black;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    background: rgb(0, 0, 0);
+}
+
+
+article:before{
+    content: '';
+    width: 100%;
+    height: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+}
+
+article h1{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 40px;
+    color: rgb(1, 39, 207);
+}
+
+article p{
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(252, 252, 252);
+    text-align: justify;
+}
+
+article img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:1220px){
+    .container-content{
+        max-width: 1000px;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width:1020px){
+    .container-content{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    article{
+        box-shadow: 0;
+    }
+}

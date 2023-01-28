@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Oscking</title>
+    <script src="https://kit.fontawesome.com/d4b22ca1b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/principal.css">
+    <link rel="stylesheet" href="./css/inicio.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minumum-scale=1.0">
+
+</head>
+<body>
+    <!--Header - Menu -->
+    <header>
+            <div class="header-content">
+                <div class="logo">
+                    <h1><i class="fa-solid fa-crown"></i>Osc<b>king</b></h1>
+                </div>
+
+                <div class="menu" id="show-menu">
+
+                    <nav>
+                        <ul>
+                            <li class= "menu-selected"><a href="#" class="text-menu-selected">
+                                <i class="fa-solid fa-house"></i>Tutoriales</a></li>
+
+                            <li><a href="contacto.html"><i class="fas fa-headset"></i>Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>  
+                
+            </div>  
+            <div id="icon-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+    </header>
+
+    <div class="container-all" id="move-content">
+
+    <!--Header - Portada -->
+    <div class="inicio-container-cover">
+        <div class="container-info-cover">
+            <h1>¡Encuentra tu tema de interes!</h1>
+            <p>Tengo videos e información adecuada para tí y para todos</p>
+        </div>
+    </div>
+
+    <div class="container-posts">
+
+        <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+        <input type="radio" id="PYTHON" name="categories" value="PYTHON">
+
+        <div class="container-category">
+            <label for="TODOS">TODOS</label>
+            <label for="PYTHON">PYTHON</label>
+
+        </div>
+
+        <div class="posts">
+            <div class="post" data-category="PYTHON">
+                <div class="ctn-img">
+                    <img src="img/portadabotdefacebook.PNG" alt="">
+                </div>
+                <h2>Hacer Bot de Facebook con PYTHON</h2>
+                <span>28 enero 2023 - 12:21 pm</span>
+                <ul class="ctn-tag"> 
+                    <li>PYTHON</li>
+                </ul>
+                <a href="articulo.html"><button>Leer más</button></a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="container-footer">
+        <footer>
+            <div class="logo-footer">
+                <img src="img/logo.jpg" alt="">
+            </div>
+
+            <div class="redes-footer">
+                <a href="https://www.facebook.com/osckiing"><i class="fa-brands fa-facebook icon-redes-footer"></i></a>
+                <a href="http://instagram.com/osckiing"><i class="fa-brands fa-instagram icon-redes-footer"></i></a>
+                <a href="#"><i class="fa-brands fa-google icon-redes-footer"></i></a>
+            </div>
+
+            <hr>
+            <h4>© 2023 Oscking - Todos los Derechos Reservados</h4>
+        </footer>
+    </div>
+    </div>
+    <script src="js/script.js"> </script>
+</body>
+</html>
