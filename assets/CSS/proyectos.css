@@ -1,0 +1,58 @@
+/* Estilos para proyectos */
+
+.container_content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+  padding-top: 100px;
+  list-style-type:circle;
+  padding-bottom: 150px;
+}
+
+.container_content h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #7d5c9b;
+}
+
+.container_content p{
+  margin-bottom: 30px;
+  color: #afa1bd;
+}
+
+.container_content a{
+  color: #7d5c9b;
+  text-decoration: underline;
+}
+
+.container_content a:hover{
+  color: #afa1bd;
+}
+
+/*Responsive*/
+
+@media (max-width: 768px) {
+  .container_content {
+    margin: 0 50px;
+  }
+
+  #lista-proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #lista-proyectos li {
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width:600px){ 
+  .container_content{
+    font-size: 12px;
+    
+  }
+}
